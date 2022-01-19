@@ -7,5 +7,3 @@ RUN npm install
 COPY . . 
 
 CMD ["npm", "run", "start"]
-
-#docker run -it -p 3000:3000 IMAGE_ID 
