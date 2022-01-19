@@ -1,13 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
 
+// Add stdin_open property to your docker-compose.yml file
+
+//       web:
+//         stdin_open: true
+
+// Make sure you rebuild your containers after making this change with  docker-compose down && docker-compose up --build
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi there
         </p>
         <a
           className="App-link"
